@@ -43,6 +43,7 @@ from langchain.vectorstores.typesense import Typesense
 from langchain.vectorstores.vectara import Vectara
 from langchain.vectorstores.weaviate import Weaviate
 from langchain.vectorstores.zilliz import Zilliz
+from langchain.vectorstores.yavs import YAVS
 
 __all__ = [
     "AlibabaCloudOpenSearch",
@@ -95,4 +96,5 @@ __all__ = [
     "VectorStore",
     "Weaviate",
     "Zilliz",
+    "YAVS",
 ]
